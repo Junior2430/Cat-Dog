@@ -14,7 +14,7 @@ const Dogs = () => {
       try {
         const response = await fetch('https://api.thedogapi.com/v1/breeds?limit=24', {
           headers: {
-            'x-api-key': import.meta.env.VITE_DOG_API_KEY
+            'x-api-key': 'live_Iio0KwNN2QxkYqHLTnOfDLVIGixbbRaOfAXeG30Cvo636c2gisOv8J5UzdVZ2ozn'
           }
         });
         if (!response.ok) throw new Error('Error al cargar los perros');

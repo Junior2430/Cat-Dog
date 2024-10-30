@@ -4,7 +4,7 @@ import { Heart } from 'react-bootstrap-icons';
 const Home = ({ onViewChange }) => {
   return (
     <div className="container">
-      {/* Hero Section */}
+      {/* Seccion de titulos */}
       <header className="text-center my-5">
         <h1 className="display-4 fw-bold mb-3" style={{ color: '#5CD2C6' }}>
           Encuentra a tu compañero perfecto
@@ -26,7 +26,7 @@ const Home = ({ onViewChange }) => {
         </InputGroup>
       </header>
 
-      {/* Pets Section */}
+      {/* Seccion de mascotas */}
       <section className="row g-4 mb-5">
         <div className="col-md-6">
           <div className="card border-0 h-100" style={{ backgroundColor: '#FFA726' }}>
@@ -62,7 +62,7 @@ const Home = ({ onViewChange }) => {
         </div>
       </section>
 
-      {/* Why Adopt Section */}
+      {/* Seccion de adopcion */}
       <section className="text-center mb-5">
         <h2 className="mb-5" style={{ color: '#5CD2C6' }}>¿Por qué adoptar?</h2>
         <div className="row g-4">

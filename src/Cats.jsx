@@ -14,7 +14,7 @@ const Cats = () => {
       try {
         const response = await fetch('https://api.thecatapi.com/v1/breeds?limit=24', {
           headers: {
-            'x-api-key': import.meta.env.VITE_CAT_API_KEY
+            'x-api-key': 'live_I1GFDiJynVmnHPZlXoVvaUWOq4OSNPvEzjcoSlBTmmNdnuzv10ofCx9ceawwJrtj'
           }
         });
         if (!response.ok) throw new Error('Error al cargar los gatos');
